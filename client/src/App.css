@@ -1,0 +1,51 @@
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.update-button,
+.add-button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-container {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.vehicle-item {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
