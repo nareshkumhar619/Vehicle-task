@@ -99,7 +99,37 @@ function App() {
           value={newVehicle.chassisNumber}
           onChange={handleInputChange}
         />
-        {/* Other input fields go here */}
+        <label>Registration Number:</label>
+        <input
+          type="text"
+          name="registrationNumber"
+          value={newVehicle.registrationNumber}
+          onChange={handleInputChange}
+        />
+        <label>Kind:</label>
+        <input
+          type="text"
+          name="kind"
+          value={newVehicle.kind}
+          onChange={handleInputChange}
+        />
+        <label>Miles Driven:</label>
+        <input
+          type="number"
+          name="milesDriven"
+          value={newVehicle.milesDriven}
+          onChange={handleInputChange}
+        />
+        <label>Last Location:</label>
+        
+        <label>Last Inspection:</label>
+        <input
+          type="text"
+          name="lastInspection"
+          value={newVehicle.lastInspection}
+          onChange={handleInputChange}
+        />
+        
         {editingVehicle ? (
           <button className="update-button" onClick={updateVehicle}>
             Update Vehicle
@@ -132,6 +162,3 @@ function App() {
 }
 
 export default App;
-
-
-
